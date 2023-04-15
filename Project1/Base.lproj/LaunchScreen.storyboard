@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Hello World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7PP-51-mBq">
-                                <rect key="frame" x="88" y="382" width="199" height="48"/>
+                                <rect key="frame" x="79.333333333333329" y="382" width="216.66666666666669" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -26,8 +26,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7PP-51-mBq" secondAttribute="trailing" constant="88" id="4hl-RO-crQ"/>
-                            <constraint firstItem="7PP-51-mBq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="88" id="XKA-NR-gyF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7PP-51-mBq" secondAttribute="trailing" id="4hl-RO-crQ"/>
+                            <constraint firstItem="7PP-51-mBq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XKA-NR-gyF"/>
                             <constraint firstItem="7PP-51-mBq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lDT-5d-zdX"/>
                             <constraint firstItem="7PP-51-mBq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="moB-9B-HZ9"/>
                         </constraints>
